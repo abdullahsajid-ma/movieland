@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lato&family=M+PLUS+Rounded+1c:wght@500&family=Roboto:ital,wght@0,500;1,300&display=swap');
+body{
+  font-family: 'Aboreto', cursive;
+  background-color: #212426;
+}
+.App {
+  text-align: center;
+  padding: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.white{
+  color: #ffffff;
+}
+.searchIcon{
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+.inputArea{
+  width: 250px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+.searchArea{
+  margin-bottom: 10px;
+}
+.container {
+  width: 100%;
+  margin-top: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.title{
+  font-size: 16px;
+}
+.cards{
+  padding: 10px;
+}
+.img{
+  width: 310px;
+  height: 460px;
+}
+@media screen and (max-width: 600px){
+  .inputArea{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 320px){
+  .inputArea{
+    width: 170px;
+  }
+}

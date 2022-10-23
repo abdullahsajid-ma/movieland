@@ -6,7 +6,7 @@ import Movies from './Movies'
 function App() {
   const[movie,setMovie] = useState('')
   const[content,setContent] = useState([])
-  const API_KEY = "http://www.omdbapi.com/?apikey=e6226e6d"
+  const API_KEY = "https://www.omdbapi.com/?apikey=e6226e6d"
 
   const searchMovie = async (title) =>{
     const response = await fetch(`${API_KEY}&s=${title}`)

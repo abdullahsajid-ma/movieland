@@ -4,8 +4,10 @@ import Movies from './Movies'
 
 
 function App() {
+
   const [movie, setMovie] = useState('')
   const [content, setContent] = useState([])
+
   const API_KEY = "https://www.omdbapi.com/?apikey=e6226e6d"
 
   const searchMovie = async (title) => {
